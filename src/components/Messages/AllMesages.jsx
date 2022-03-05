@@ -12,6 +12,7 @@ import {getPostsForAll} from '../../service/PostService'
 const AllMessages=observer(()=>{
     useEffect(()=>{
       getPostsForAll().then((res)=>{
+        console.log(res)
         PostStore.setPosts(res.data)
       })
     },[])

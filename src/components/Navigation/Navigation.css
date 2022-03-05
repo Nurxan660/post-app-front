@@ -1,0 +1,31 @@
+main{
+    min-height: inherit;
+}
+.navigation{
+    margin-left: 0px;
+    list-style: none;
+    height: 200px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+
+}
+.navigation li{
+    cursor: pointer;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.navigation li:hover{
+     background-color:#c4c0c0;
+    
+}
+.content{
+    min-height: inherit;
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+}

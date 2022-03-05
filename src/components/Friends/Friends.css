@@ -1,0 +1,44 @@
+.friends-navigation{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    margin-top:2px;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.friends-find-input{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    margin-top:2px;
+    align-items: center;
+    justify-content: center;
+}
+.friends-find-input input{
+    width: 550px;
+    border: none;
+}
+.friends-find-content{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    margin-top:2px;
+    justify-content: flex-start;
+    
+    
+}
+.friends-find-content span{
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.friends-find-content button{
+    
+    margin-right: 10px;
+}
+
